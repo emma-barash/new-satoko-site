@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@font-face{
+    src: url('./julietta-messie/Julietta-Messie-Demo.ttf');
+    font-family: julie
+}
+
+html{
+    background-image: linear-gradient(240deg, rgb(224, 223, 214),rgb(250, 229, 176), rgb(250, 229, 176));
+    height: 100vh;
+    color: gray;
+}
+h1{
+    font-family: julie;
+}
+.linkedPage{
+    color:#2f0a00;
+    text-decoration: none;
+    padding: 45px;
+    font-size: 40px;
+    font-family: julie;
+}
+.linkedPage:hover{
+    color: #fff;
+}
+.homeLink{
+    color:#2f0a00;
+    text-decoration: none;
+}
