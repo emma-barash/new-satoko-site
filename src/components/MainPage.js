@@ -5,7 +5,8 @@ import {
     AboutSquare,
     OverlayTitle,
     ASTwo,
-    ASThree
+    ASThree,
+    Login
 } from '../elements/index.js';
 
 const MainPage = () => {
@@ -15,6 +16,7 @@ const MainPage = () => {
             <AboutSquare><OverlayTitle>Last Kiln Firing</OverlayTitle></AboutSquare>
             <ASTwo><OverlayTitle>North Coast Artists Gallery</OverlayTitle></ASTwo>
             <ASThree><OverlayTitle>More</OverlayTitle></ASThree>
+            <Login>Sign In</Login>
         </MainContainer>
     );
 };

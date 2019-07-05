@@ -15,3 +15,17 @@ export const OverlayTitle = styled(HomeTitle)`
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
 `;
+
+export const Login = styled(HomeTitle)`
+    font-size: 45px;
+    font-family: julie;
+    font-weight: lighter;
+    padding-top: 10px;
+    color: transparent;
+    transition: all 0.5s ease-in;
+    &:hover{
+        /* color: #FFFFFF; */
+        cursor: pointer;
+        color: #2f0a00;
+    }
+`;
