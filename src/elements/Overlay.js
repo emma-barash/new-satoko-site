@@ -6,7 +6,7 @@ export const AboutSquare = styled.div`
     margin-top: 7%;
     text-align: center;
     /* position: relative; */
-    background-image: linear-gradient(rgb(167, 173, 186, 0.75), rgb(167, 173, 186, 0.75));
+    background-image: linear-gradient(rgb(255, 255, 255, 0.7), rgb(255, 255, 255, 0.7));
 `;
 
 export const ASTwo = styled(AboutSquare)`

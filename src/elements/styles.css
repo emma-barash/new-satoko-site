@@ -9,7 +9,7 @@
 }
 
 html{
-    background-image: linear-gradient(240deg, rgb(224, 223, 214),rgb(250, 229, 176), rgb(250, 229, 176));
+    background-image: linear-gradient(245deg, #FFFFFF,#FFFFFF, rgb(250, 229, 176));
     height: 100vh;
     color: gray;
 }
@@ -24,7 +24,7 @@ h1{
     font-family: julie;
 }
 .linkedPage:hover{
-    color: #fff;
+    color: #FFFFFF;
 }
 .homeLink{
     color:#2f0a00;
