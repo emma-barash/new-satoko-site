@@ -13,20 +13,31 @@ html{
     height: 100vh;
     color: gray;
 }
+
 h1{
     font-family: julie;
 }
+
 .linkedPage{
     color:#2f0a00;
     text-decoration: none;
     padding: 45px;
     font-size: 40px;
     font-family: julie;
+    transition: color 0.35s linear;
 }
+
 .linkedPage:hover{
     color: #FFFFFF;
 }
+
 .homeLink{
     color:#2f0a00;
     text-decoration: none;
+    transition: color 0.4s linear;
+    font-family: julie;
+}
+
+.homeLink:hover{
+    color: #FFFFFF;
 }

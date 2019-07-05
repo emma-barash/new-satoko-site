@@ -8,7 +8,7 @@ import {
 const HomePage = () => {
     return (
         <HomeContainer>
-                <Link className="homeLink" to="/main"><HomeTitle>Satoko Barash Ceramics</HomeTitle></Link>
+                <HomeTitle><Link className="homeLink" to="/main">Satoko Barash Ceramics</Link></HomeTitle>
         </HomeContainer>
     );
 };
