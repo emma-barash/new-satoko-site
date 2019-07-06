@@ -42,7 +42,15 @@ h1{
     color: #FFFFFF;
 }
 
+.linkedAuth{
+    text-decoration: none;
+}
+
 .centerTitle{
     text-align: center;
     margin-left: 200px;
+}
+
+.centerText{
+    text-align: center;
 }

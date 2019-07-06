@@ -11,7 +11,7 @@ export const HomeTitle = styled.h1`
 
 export const OverlayTitle = styled(HomeTitle)`
     font-size: 25px;
-    padding: 0;
+    padding: 0 0 35px 0;
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
 `;
@@ -42,4 +42,9 @@ export const Pronunciation = styled(HomeTitle)`
     font-size: 35px;
     margin: 0 auto;
     padding-top: 0;
+`;
+
+export const SignIn = styled(HomeTitle)`
+    padding-top: 3%;
+    margin: auto;
 `;

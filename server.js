@@ -12,7 +12,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 // CONNECT TO MONGO DB
-mongoose.connect('mongodb://localhost:27017/user-token-1', { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true }, () => {
+mongoose.connect('mongodb://localhost:27017/token-auth-2', { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true }, () => {
     console.log('Connected to the DB!' .random)
 });
 
