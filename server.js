@@ -4,16 +4,15 @@ const mongoose = require('mongoose');
 const app = express();
 const colors = require('colors');
 const expressJwt = require('express-jwt')
-const PORT = process.env.PORT || 5020;
+const PORT = process.env.PORT || 5040;
 require('dotenv').config();
-
 
 // MIDDLEWARE
 app.use(morgan('dev'));
 app.use(express.json());
 
 // CONNECT TO MONGO DB
-mongoose.connect('mongodb://localhost:27017', { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true }, () => {
+mongoose.connect('mongodb://localhost:27017/user-token-1', { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true }, () => {
     console.log('Connected to the DB!' .random)
 });
 
@@ -25,7 +24,7 @@ app.use('/api', expressJwt({ secret: process.env.SECRET }));
 app.use((err, req, res, next) => {
     if(err){
         console.error(err);
-        return res.send({ errMsg: err.message})
+        return res.status(500).send({ errMsg: err.message})
     };
 });
 
