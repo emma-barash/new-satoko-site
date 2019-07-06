@@ -3,7 +3,9 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const app = express();
 const colors = require('colors');
-const PORT = process.env.PORT || 5000;
+const expressJwt = require('express-jwt')
+const PORT = process.env.PORT || 5020;
+require('dotenv').config();
 
 
 // MIDDLEWARE
@@ -16,17 +18,18 @@ mongoose.connect('mongodb://localhost:27017', { useNewUrlParser: true, useFindAn
 });
 
 // ROUTES
-app.use('/login', require('./routes/authRouter.js'));
+app.use('/auth', require('./routes/authRouter.js'));
+app.use('/api', expressJwt({ secret: process.env.SECRET }));
 
 // GLOBAL ERROR HANDLER
 app.use((err, req, res, next) => {
     if(err){
         console.error(err);
-        return res.send({ errMsg: errmessage})
+        return res.send({ errMsg: err.message})
     };
 });
 
 // LISTEN TO PORT
-app.listen(PORT, ()=> {
+app.listen(PORT, () => {
     console.log(`Server is listening on ${PORT}` .rainbow)
 })
