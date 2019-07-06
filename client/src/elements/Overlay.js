@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const AboutSquare = styled.div`
-    width: 100vw;
+    width: 65vw;
     height: auto;
     display: flex;
     flex-flow: column;
     justify-content: center;
     justify-items: center;
-    margin-top: 7%;
+    margin: 7% auto auto auto;
+    border-radius: 50px;
     padding: 30px;
     text-align: center;
     /* position: relative; */
@@ -48,4 +49,6 @@ export const FormWrapper = styled(AboutSquare)`
     position: absolute;
     top: 175px;
     left: 0;
+    border-radius: 0;
+    width: 100vw;
 `;

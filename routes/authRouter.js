@@ -6,8 +6,8 @@ const jwt = require('jsonwebtoken')
 // SIGNUP - POST // For backend use only
 
 authRouter.post('/signup', (req, res, next) => {
+    console.log(req.body.username);
     Satoko.findOne({ username: req.body.username.toLowerCase() }, (err, user) => {
-        console.log(req.body);
         if(err){
             res.status(500)
             return next(err)

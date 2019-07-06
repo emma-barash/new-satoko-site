@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 const colors = require('colors');
 const expressJwt = require('express-jwt')
-const PORT = process.env.PORT || 5040;
+const PORT = process.env.PORT || 5100;
 require('dotenv').config();
 
 // MIDDLEWARE

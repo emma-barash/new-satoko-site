@@ -5,7 +5,7 @@ import table from './images/table.jpg';
 
 export const HomeContainer = styled.div`
     text-align: center;
-    background: linear-gradient(to top right, rgb(167, 173, 186, 0.6), rgb(167, 173, 186, 0.5)), url(${ afterFiring });
+    background: linear-gradient(to top right, rgb(167, 173, 186, 0.48), rgb(167, 173, 186, 0.48)), url(${ afterFiring });
     /* background: linear-gradient(to top right, rgb(167, 173, 186, 0.6), rgb(167, 173, 186, 0.5)), url("https://previews.dropbox.com/p/thumb/AAfobnNba14u4vZPZJvmU6cV4tAsDC9QanafzHiDGsLG79Fgguv7eUjkaDvDCUUjIKwWLDXAiXvMaODny3_r29TRc5AjdYe9_uWpl_dfNxOIpw-PoM2_S_Zmi_g2eLin3GrbgBdDxNVclc1Qez2qH_TIrUgcvJIdRbgdr12dDrH5emXIjrhg42HlKmb9-HL-R2C2uzR4pJ5Dv32co40RU2h-EASbR7ES9NuBjzcbAYG2kU54D_sW3JU4ho_f-vOKL8AQgGAhTyrEXr9glIm34BJjIb2TQ1g3r8B_v_aQPe6Pic6I9ITL-tC8m449YfKi7_shfOLnji1yvPPw_AuoEfz8HNjcGBf8i7IUYhvj6IIgIAnXmpYPiVLYZUJdAKaKzgqSIiK21SmRQY699DaRj2aqsY2WgCXOQCP_3FOWKHyWIoBXW8BxAnY7iZWuwF1Ht0DmKLtnFT_XKTqxwvV8IwkwmPUnFXomgnIaeYfS_bgnplge6TDZK9wDiy5dBuzDD2H4bKSnnoatZKwumCinsze7IQREncYcmQuNK_DFh8dwersFzDpyLs9WbMlcQOA483l1v46o4uNHXeAhyawxNYmOf4F3j40itboj0-59EQo53A-yZomOGz-N-zYtGOziffaDjeuC_Otwqv9yMtURtzRk7qfiVVkfo1xHkmh27ckmqvVZBWYp0DmUIhj7j9OSAMBDmNkL2Av9eTL2i9v5-oee0Bu5SJ3o8bfc2DCWNrwb3HAwRAuFXwqKSH2HSe5VGMm289dAjHubmzZdRcwZzYNwJv_si-ueCeqFR2xec-_FWw/p?size=2048x1536&size_mode=3"); */
     position: fixed;
     background-size: contain;
