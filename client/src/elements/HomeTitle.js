@@ -48,3 +48,8 @@ export const SignIn = styled(HomeTitle)`
     padding-top: 3%;
     margin: auto;
 `;
+
+export const GalleryTitle = styled(HomeTitle)`
+    font-size: 55px;
+    margin-top: 90px;
+`;

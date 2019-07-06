@@ -52,11 +52,19 @@ img{
     text-decoration: none;
 }
 
+.linkedS{
+    position: absolute;
+    top: 0;
+    z-index: 4;
+}
+
 .centerTitle{
     text-align: center;
     margin-left: 200px;
+    
 }
 
 .centerText{
     text-align: center;
 }
+

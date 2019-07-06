@@ -2,7 +2,7 @@ import React from 'react';
 import HomePage from './components/HomePage.js';
 import MainPage from './components/MainPage.js';
 import AboutArtist from './components/AboutArtist.js';
-import Gallery from './components/Gallery.js';
+import Slideshow from './components/Slideshow.js';
 import Auth from './components/Auth.js';
 import Blog from './components/Blog.js';
 import { Switch, Route } from 'react-router-dom';
@@ -14,7 +14,7 @@ const App = () => {
             <Switch>
                 <Route exact path="/"         component={ HomePage }    />
                 <Route       path="/main"     component={ MainPage }    />
-                <Route       path="/gallery"  component={ Gallery }     />
+                <Route       path="/gallery"  component={ Slideshow }     />
                 <Route       path="/about"    component={ AboutArtist } />
                 <Route       path="/auth"     component={ Auth }        />
                 <Route       path="/blog"     component={ Blog }        />
