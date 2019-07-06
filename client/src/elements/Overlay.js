@@ -28,5 +28,5 @@ export const IMG = styled(AboutSquare)`
     width: 18vw;
     margin-right: 15px;
     border-radius: 50px;
-    background-image: linear-gradient(rgb(47, 10, 0, 0.7), rgb(47, 10, 0, 0.7))
+    background-image: linear-gradient(rgb(47, 10, 0, 0.65), rgb(47, 10, 0, 0.65))
 `;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Satoko = styled.img`
     height: 300px;
     width: 250px;
-    margin: auto 15px;
+    margin: auto 15px auto auto;
     display: block;
     border-radius: 50px;
     float: right;

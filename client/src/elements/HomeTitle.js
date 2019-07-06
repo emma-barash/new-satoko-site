@@ -29,3 +29,17 @@ export const Login = styled(HomeTitle)`
         color: #2f0a00;
     }
 `;
+
+export const ArtistTitle = styled(HomeTitle)`
+    padding-top: 5px;
+    font-size: 45px;
+    margin: 10px auto;
+    font-family: julie;
+    font-weight: lighter; 
+`;
+
+export const Pronunciation = styled(HomeTitle)`
+    font-size: 35px;
+    margin: 0 auto;
+    padding-top: 0;
+`;

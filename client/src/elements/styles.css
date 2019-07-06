@@ -41,3 +41,8 @@ h1{
 .homeLink:hover{
     color: #FFFFFF;
 }
+
+.centerTitle{
+    text-align: center;
+    margin-left: 200px;
+}
