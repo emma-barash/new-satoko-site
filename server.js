@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 const colors = require('colors');
 const expressJwt = require('express-jwt')
-const PORT = process.env.PORT || 5100;
+const PORT = process.env.PORT || 5200;
 require('dotenv').config();
 
 // MIDDLEWARE
@@ -12,7 +12,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 // CONNECT TO MONGO DB
-mongoose.connect('mongodb://localhost:27017/token-auth-2', { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true }, () => {
+mongoose.connect("mongodb://localhost:27017/token-auth-2", { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true }, () => {
     console.log('Connected to the DB!' .random)
 });
 
@@ -22,6 +22,9 @@ app.use('/api', expressJwt({ secret: process.env.SECRET }));
 
 // GLOBAL ERROR HANDLER
 app.use((err, req, res, next) => {
+    if(err.name === "UnauthorizedError"){ // if express-jwt does not find a token / throws an error
+        res.status(err.status);
+    }
     if(err){
         console.error(err);
         return res.status(500).send({ errMsg: err.message})
