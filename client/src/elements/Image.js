@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Satoko = styled.img`
-    height: 300px;
-    width: 250px;
+    height: 365px;
+    width: 270px;
     margin: auto;
     border-radius: 50px;
     box-shadow: 0 0 15px black;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SatoChan from '../elements/images/IMG-1510.JPG';
 import { 
     AboutContainer,
     Satoko,
@@ -20,7 +21,7 @@ export default class AboutArtist extends Component {
         return (
             <AboutContainer>
                 <Link className="linkedPage" to="/main">Main</Link>
-                <IMG><Satoko src="https://www.northcoastartists.org/uploads/1/2/1/2/12129626/satoko-potting2_orig.jpeg" alt="Satoko Barash at the pottery wheel"/></IMG>
+                <IMG><Satoko src={SatoChan} alt="Satoko Barash at the pottery wheel"/></IMG>
                 <div className="centerTitle">
                     <ArtistTitle>さとこ</ArtistTitle>
                     <Pronunciation>( s a - t o - k o )</Pronunciation>

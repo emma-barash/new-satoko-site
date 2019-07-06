@@ -27,12 +27,12 @@ export const ASThree = styled(AboutSquare)`
 
 export const IMG = styled(AboutSquare)`
     padding-left: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
     position: relative;
-    height: 40%;
+    height: 45%;
     float: right;
-    width: 18vw;
-    margin-right: 15px;
+    width: 19vw;
+    margin-right: 10px;
     border-radius: 50px;
     background-image: linear-gradient(rgb(47, 10, 0, 0.65), rgb(47, 10, 0, 0.65));
 `;
