@@ -18,6 +18,12 @@ h1{
     font-family: julie;
 }
 
+img{
+    width: 200px;
+    height: 200px;
+    margin: 25px 25px;
+}
+
 .linkedPage{
     color:#2f0a00;
     text-decoration: none;

@@ -11,7 +11,8 @@ export const AboutSquare = styled.div`
     padding: 30px;
     text-align: center;
     /* position: relative; */
-    background-image: linear-gradient(rgb(255, 255, 255, 0.7), rgb(255, 255, 255, 0.7));
+    /* background-image: linear-gradient(transparent, rgb(255, 255, 255, 0.6), rgb(255, 255, 255, 0.7), rgb(255, 255, 255, 0.7)); */
+    background-image: linear-gradient(rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8));
 `;
 
 export const ASTwo = styled(AboutSquare)`
@@ -46,5 +47,5 @@ export const FormWrapper = styled(AboutSquare)`
     background-image: linear-gradient(rgb(47, 10, 0, 0.65), rgb(47, 10, 0, 0.65));
     position: absolute;
     top: 175px;
-    left:0;
+    left: 0;
 `;
