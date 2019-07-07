@@ -51,4 +51,5 @@ export const FormWrapper = styled(AboutSquare)`
     left: 0;
     border-radius: 0;
     width: 100vw;
+    text-align: center;
 `;
