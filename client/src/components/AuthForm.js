@@ -10,7 +10,7 @@ const AuthForm = props => {
     return (
         <div>
             <form onSubmit={ handleSubmit }>
-                <StyledUsername value={ inputs.username } onChange={ handleChange } name="username" placeholder=" なまえ" />
+                <StyledUsername value={ inputs.username } onChange={ handleChange } name="username" placeholder=" なまえ"    />
                 <StyledPassword value={ inputs.password } onChange={ handleChange } name="password" placeholder=" パスワード" />
                 <AuthB>Authenticate</AuthB>
             </form>
