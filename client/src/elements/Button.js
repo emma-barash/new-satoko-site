@@ -6,11 +6,13 @@ export const AuthB = styled.button`
     font-family: julie;
     font-size: 40px;
     background: transparent;
-    color: #FFFFFF
+    color: #FFFFFF;
+    transition: color 0.3s linear;
     &:focus{
         outline: none;
     }
     &:hover{
         cursor: pointer;
+        color: #2f0a00;
     }
 `;

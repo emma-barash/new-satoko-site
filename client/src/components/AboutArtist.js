@@ -21,7 +21,7 @@ export default class AboutArtist extends Component {
         return (
             <AboutContainer>
                 <Link className="linkedPage" to="/main">Main</Link>
-                <IMG><Satoko src={SatoChan} alt="Satoko Barash at the pottery wheel"/></IMG>
+                <IMG><Satoko src={ SatoChan } alt="Satoko Barash at the pottery wheel"/></IMG>
                 <div className="centerTitle">
                     <ArtistTitle>さとこ</ArtistTitle>
                     <Pronunciation>( s a - t o - k o )</Pronunciation>
