@@ -4,16 +4,23 @@ const mongoose = require('mongoose');
 const app = express();
 const colors = require('colors');
 const expressJwt = require('express-jwt')
-const PORT = process.env.PORT || 5200;
+const PORT = process.env.PORT || 5500;
 require('dotenv').config();
 
 // MIDDLEWARE
 app.use(morgan('dev'));
 app.use(express.json());
 
+
 // CONNECT TO MONGO DB
-mongoose.connect("mongodb://localhost:27017/token-auth-2", { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true }, () => {
-    console.log('Connected to the DB!' .random)
+mongoose.connect("mongodb://localhost:27017/token-auth-2", 
+    { 
+        useNewUrlParser: true, 
+        useFindAndModify: false, 
+        useCreateIndex: true 
+    }, 
+        () => {
+        console.log('Connected to the DB!' .random)
 });
 
 // ROUTES

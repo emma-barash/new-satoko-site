@@ -48,4 +48,4 @@ satokoSchema.methods.withoutPassword = function(){
     return user
 }
 
-module.exports = mongoose.model("Satoko", satokoSchema);
+module.exports = mongoose.model("Satoko", satokoSchema, "satokos");

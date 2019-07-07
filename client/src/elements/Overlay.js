@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutSquare = styled.div`
-    width: 65vw;
+    width: 55vw;
     height: auto;
     display: flex;
     flex-flow: column;
