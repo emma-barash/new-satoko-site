@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken')
 authRouter.post('/signup', (req, res, next) => {
     Satoko.findOne({ username: req.body.username.toLowerCase() }, (err, user) => {
         if(err){
-            res.status(500)
+            res.status(500);
             return next(err)
         }
         if(user !== null){

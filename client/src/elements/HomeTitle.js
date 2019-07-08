@@ -52,4 +52,8 @@ export const SignIn = styled(HomeTitle)`
 export const GalleryTitle = styled(HomeTitle)`
     font-size: 55px;
     margin-top: 90px;
+    height: 70vh;
+    background-color: brown;
+    padding: 20% 5% 20% 5%;
+    margin: auto auto auto 20px;
 `;
